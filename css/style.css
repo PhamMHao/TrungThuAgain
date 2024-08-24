@@ -28,8 +28,8 @@
   #yes{
     position: absolute;
     display: inline-block;
-    left: 70%; 
-    top: 40vh;
+    left: 100px; 
+    top: 300px;
     -webkit-transition: all 0.3s ease-out;
   }
 
@@ -70,16 +70,16 @@ header h4 {
   #no{
     position: absolute;
     display: inline-block;
-    left: 7%; 
-    top: 40vh;
+    left: 9%; 
+    top: 90px;
     font-size: 14px;
     padding: 3px;
-    -webkit-transition: all 0.1s ease-out;
+    -webkit-transition: all 0.05s ease-out;
   }
   #yes{
     position: absolute;
     display: inline-block;
-    left: 58%; 
+    left: 60%; 
     top: 40vh;
     font-size: 14px;
     padding: 3px;

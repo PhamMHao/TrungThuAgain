@@ -36,9 +36,14 @@
     </div>
 
     <!-- 4. Thay đổi nhạc -->
-    <audio src="./sound/sound.mp3" autoplay></audio>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+    const audio = new Audio("./sound/sound.mp3");
+    function playMusic() {
+          audio.play();
+        }
+        // Set a timeout to play music after 5 seconds (5000 milliseconds)
+        setTimeout(playMusic, 2500);
+  </script>
     <script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -50,4 +55,4 @@
     <script src="./js/main.js"></script>
 
   </body>
-</html>
+</html>=
